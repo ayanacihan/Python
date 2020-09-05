@@ -1,0 +1,19 @@
+>>> b = 4
+>>> c = 3
+>>> print(b==c)
+False
+>>> print(b!= c)
+True
+>>> print(b>c)
+True
+>>> Print(b<c)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Print' is not defined
+>>> print(b<c)
+False
+>>> print(3<=b)
+True
+>>> print(5<=c)
+False
+>>>
