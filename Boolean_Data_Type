@@ -1,0 +1,6 @@
+TRUE OR FALSE
+
+>>> type(True)
+<class 'bool'>
+>>> type(False)
+<class 'bool'>
