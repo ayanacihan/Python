@@ -1,0 +1,14 @@
+EITHER SINGLE OR DOUBLE QUOTES ARE POSSIBLE
+STRING CAN BE EMPTY " "
+
+>>> print("Hello World")
+Hello World
+
+>>> print("'Hello World'")
+'Hello World'
+
+>>> type("Hello")
+<class 'str'>
+
+>>> print("Hey what\'s up")
+Hey what's up
