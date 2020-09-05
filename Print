@@ -1,0 +1,3 @@
+print("Hello")#English
+print("Merhaba")#Turkish
+print("Bonjour")#French
