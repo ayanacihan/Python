@@ -1,0 +1,44 @@
+CONDITIONAL STATEMENTS
+IF, ELIF, ELSE
+
+LOOPS
+FOR, WHILE
+
+FUNCTION
+PRINT()
+
+HANDS-ON SAMPLES
+IF STATEMENTS
+/*
+a = 7
+b = 8
+
+if a < b:
+    print(a, "is smaller than", b)
+*/
+ELSE STATEMENTS
+/*
+a = 8
+b = 8
+
+if a < b:
+    print(a, "is smaller than", b)
+
+elif a > b:
+    print(a, "is bigger than", b)
+
+else:
+    print(a, "is equal to", b)
+*/
+
+ELIF STATEMENTS (YOU CAN ADD AS MANY ELIF STATEMENTS AS YOU WANT)
+/*
+a = 7
+b = 8
+
+if a < b:
+    print(a, "is smaller than", b)
+
+elif a > b:
+    print(a, "is bigger than", b)
+*/
