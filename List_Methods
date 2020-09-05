@@ -1,0 +1,33 @@
+extend()
+append()
+sort()
+count()
+index()
+insert()
+pop()
+remove()
+del()
+
+Hands-on Samples (PhyCharm)
+fruits = ["berries","apples","peaches","oranges"]
+vegetables = ["kale","broccoli","lettuce"]
+
+fruits.extend(vegetables)
+print(fruits)
+
+vegetables.append("bean")
+print(vegetables)
+
+vegetables.sort()
+fruits.sort()
+
+print(vegetables, fruits)
+print(vegetables)
+print(fruits)
+
+vegetables.sort(reverse=True)
+print(vegetables)
+
+print(fruits.count("berries"))
+
+print(fruits.index("berries"))
