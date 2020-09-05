@@ -1,0 +1,14 @@
+SET IS A COLLECTION OF VALUES.
+VALUES ARE NOT ORDERED, INDEXED.
+
+SETS ARE DIFFERENT THAN TUPLES. THEY HAVE DIFFERENT SYNTAX.
+
+HANDS-ON SAMPLES
+fruits = {"grapes","apples","berries"}
+for x in fruits:
+    print(x)
+
+animals = set(("lion","tiger","bear")) #THIS IS SET FORMAT
+print(animals)
+
+print(len(animals))
