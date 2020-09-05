@@ -1,0 +1,8 @@
+INTEGERS (int)
+FLOATING POINT (float) NUMBERS WITH DECIMALS
+
+>>> print(type(10))
+<class 'int'>
+
+>>> print(type(10.3))
+<class 'float'>
