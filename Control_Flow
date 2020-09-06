@@ -42,3 +42,128 @@ if a < b:
 elif a > b:
     print(a, "is bigger than", b)
 */
+
+WHILE LOOPS
+/*
+i = 1
+
+while i < 7:
+    print(i)
+    i += 1
+*/
+
+FOR LOOPS
+/*
+fruits = ["grapes","berries","oranges"]
+for x in fruits:
+    print(x)
+*/
+
+NESTED LOOPS (LOOPS INSIDE LOOPS)
+/*
+colors = ["green","yellow","purple"]
+fruits = ["grapes","berries","oranges"]
+
+for x in colors:
+    for y in fruits:
+        print(x,y)
+*/
+
+BREAK STATEMENT (STOPS THE LOOP)
+/*
+i = 1
+
+while i < 8:
+    print(i)
+    if i==6:
+        break
+    i += 1
+*/
+
+CONTINUE STATEMENT
+/*
+i = 0
+
+while i < 8:
+    i += 1
+    if i==4:
+        continue
+    print(i)
+*/
+ON THE SCREEN YOU'LL SEE;
+1
+2
+3
+5
+6
+7
+8
+
+FOR LOOP AND BREAK STATEMENT
+/*
+fruits = ["grapes","berries","oranges"]
+
+for x in fruits:
+    print(x)
+    if x == "berries":
+        break
+*/
+ON THE SCREEN YOU'LL SEE;
+grapes
+berries
+
+FOR LOOP AND BREAK STATEMENT
+/*
+for x in fruits:
+    if x == "berries":
+        continue
+    print(x)
+*/
+ON THE SCREEN YOU'LL SEE;
+grapes
+oranges
+
+FOR LOOP AND ELSE STATEMENT
+/*
+for x in range(8): #range() function creates random numbers
+    print(x)
+
+else:
+    print("Loop is over. Bye!")
+*/
+ON THE SCREEN YOU'LL SEE;
+1
+2
+3
+4
+5
+6
+7
+Loop is over. Bye!
+
+FOR LOOP AND RANGE() FUNCTION
+/*
+for x in range(2,8):
+     print(x)
+
+for x in range(2,40,4):
+     print(x)
+*/
+
+ON THE SCREEN YOU'LL SEE;
+2
+3
+4
+5
+6
+7
+2
+6
+10
+14
+18
+22
+26
+30
+34
+38
