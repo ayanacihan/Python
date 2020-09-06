@@ -1,0 +1,43 @@
+CREATING A DECORATOR
+1st VERSION
+
+/*
+def my_decorator(function):
+    def wrapper():
+        myfunc = function()
+        convert_uppercase = myfunc.upper()
+        return convert_uppercase
+    return wrapper
+
+def say_hello():
+    return "hello world"
+decorate = my_decorator(say_hello)
+
+print(decorate())
+*/
+
+2nd VERSION
+def my_decorator(function):
+    def wrapper():
+        myfunc = function()
+        convert_uppercase = myfunc.upper()
+        return convert_uppercase
+    return wrapper
+@my_decorator
+def say_hello():
+    return "hello world"
+decorate = my_decorator(say_hello)
+
+print(say_hello())
+
+ON THE SCREEN YOU'LL SEE;
+HELLO WORLD
+
+PYTHON BUILT-IN FUNCTIONS
+b = "hello"
+len(b)
+5
+b.upper()
+'HELLO'
+print("Hi")
+Hi
